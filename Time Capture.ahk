@@ -1,5 +1,7 @@
 
 /*
+20210402 v1.00
+
 Joy's Record Time code :https://github.com/yevolcn/RecordTime/blob/master/RecordTime.ahk
 Helbents Clock/Stopwatch code: https://pastebin.com/HxgmZVXF
 
@@ -16,6 +18,9 @@ https://www.youtube.com/watch?v=0f3Yhr_cpIM
 Hotkeys dynamically: 
 https://autohotkey.com/board/topic/64933-can-we-create-hotkeys-dynamically/
 There were a few interesting methods but I decided to try and build my own. 
+
+I hope this is of use to you, 
+Max Drake- drakemax@hotmail.com
 
 */
 #SingleInstance, Force
@@ -34,18 +39,14 @@ IniFilePath2= %A_ScriptDir%\_File_HotKeys.ini
 
 ;-------Tray Menu items 
 Menu, Tray, NoStandard ; remove default tray menu entries
-Menu, Tray, Add    ; adds a separator between 
+Menu, Tray, Add ; adds a separator between 
 Menu, Tray, Add, Run Time Capture, MyLabel_1
 Menu, Tray, Add, Open File to Edit, MyLabel_2
 Menu, Tray, Add, Upload Project Codes, MyLabel_3
 Menu, Tray, Add, Create FileName to Store, MyLabel_4
 Menu, Tray, Add, ReMap HotKeys, MyLabel_5
-Menu, Tray, Add, Exit the Program, Exit1
+Menu, Tray, Add, Exit the Program, Exit
 
-Exit1() {
-    MsgBox, You clicked the Exit entry The script will close itself now.
-    ExitApp
-}
 ; if the hotkey & file name do not exist then these are default settings
 IfNotExist, %IniFilePath2% 
 {
@@ -279,4 +280,12 @@ MyLabel_5: ;!7:: This remaps hotkeys
                   Return
                 }
               }
+              !8:: 
+                Exit()
+              Return
+              Exit() {
+                ;MsgBox, You clicked the Exit entry The script will close itself now.
+              ExitApp
+            }
+            Return
 
