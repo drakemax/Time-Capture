@@ -2,6 +2,8 @@
 /*
 20210402 v1.00
 
+Also add a restart/refresh to exe file
+
 Joy's Record Time code :https://github.com/yevolcn/RecordTime/blob/master/RecordTime.ahk
 Helbents Clock/Stopwatch code: https://pastebin.com/HxgmZVXF
 
@@ -40,12 +42,12 @@ IniFilePath2= %A_ScriptDir%\_File_HotKeys.ini
 ;-------Tray Menu items 
 Menu, Tray, NoStandard ; remove default tray menu entries
 Menu, Tray, Add ; adds a separator between 
-Menu, Tray, Add, Run Time Capture, MyLabel_1
-Menu, Tray, Add, Open File to Edit, MyLabel_2
-Menu, Tray, Add, Upload Project Codes, MyLabel_3
-Menu, Tray, Add, Create FileName to Store, MyLabel_4
-Menu, Tray, Add, ReMap HotKeys, MyLabel_5
-Menu, Tray, Add, Exit the Program, Exit
+Menu, Tray, Add, Run Time Capture Alt+3, MyLabel_1
+Menu, Tray, Add, Open File to Edit Alt+4, MyLabel_2
+Menu, Tray, Add, Upload Project Codes Alt+5, MyLabel_3
+Menu, Tray, Add, Create FileName to Store Alt+6, MyLabel_4
+Menu, Tray, Add, ReMap HotKeys Alt+7, MyLabel_5
+Menu, Tray, Add, Exit Alt+8, Exit
 
 ; if the hotkey & file name do not exist then these are default settings
 IfNotExist, %IniFilePath2% 
