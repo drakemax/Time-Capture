@@ -9,3 +9,12 @@ Web Research, 28-08-2021, 3, AHK looking at passwords<br> Stream Deck opening bl
 OP-SitePlanning, 09-09-2021, 1, Docs and info collated for Plumbing engineer to design drainage septic tank/disposal field for Growhouse. <br>Set of Docs & notes 
 OP-SitePlanning, 10-09-2021, 2, Updating Fencing for 1/ Detail, 2/ Phase 2Cameras, 3/ Phase 2 w/outside Grow cameras and widening gate to 4m (from 3.5m). 
 OP-SitePlanning, 11-09-2021, .5, Updating fencing so A204 same as 114a (all site with Grow to have kink in fence to SE corner of process blg like in Phase 2 plan
+OP-Consent2-Redesign, 16-09-2021, 1.5, Phone call w/ Karl about mods :<br>1/ drying room in 4 containers<br>2/ Hopper/bagger for soil to poke into growhouses and bagging inside<br>3/ Collate past issues for infor for Karl to mark-up<br>4- flexi-tank and consent & NZ Blg code requirements.<br>5. Email tyo Karl/Zoe response & links to docs
+OP-Security&Locker, 16-09-2021, 2, 1-tidying up minified drawings- putting onto A4 set <br>2- Saving file to new date Amenities 20210916-minified v2.rvt<br>3. Adjusting Roof/floor to new area & deleting rooms not required
+OP-Consent2-Redesign, 17-09-2021, 4, Updating stuff for Karl :<br>1. Security building update- reduced to guard room and waiting only. Plans, Sections, Elevations- PDFs created<br>2. Site- Added Containers foir Drying room where henhouse is.<br>3. Added Transsformer <br>4- Added Bladders for rainwater based on 200m3 so no blg consent required.<br>5- Email discussing what I've done. <br>2 lots of drgs- Fence one (current) & Fence general Phase 2a/b - I'll reference these drawings in my links (Recent Files)
+AHK-Programming, 20-09-2021, 4, FileSaveLaunch uploaded video, compiled script & Help File Web page & in github too. A long process but a few bugs fixed. 
+OP-Consent2-Redesign, 22-09-2021, 2.5, Temporary Drying room setup for containers on pad with duct ventilation. Remodelled original fert container buildings - working out ducts and containers and 3d views to explain process
+OP-Consent2-Redesign, 23-09-2021, 3, Temp Drying Room setting up drawing set. notes.  3d.  Plan, Elevations & sections and other site plan- Print and upload and email
+OP-Consent2-Redesign, 24-09-2021, .75, Modelling Pallet Family with plant sizes for layout of growhouses 
+OP-Consent2-Redesign, 24-09-2021, 2.5, Remodel Growhouse plan after conversation w/ Karl with amenities on East Side and growhouses split in two
+OP-Consent2-Redesign, 25-09-2021, 3, Op setting up families for Pallets & Drying Room Shelving. Organising for scheduling

@@ -1,7 +1,9 @@
 
 /*
-20210402 v1.00
+20210926 v1.0
+Added Notepad.exe for editing (Alt + 4 original Hotykey)- it wasn't working before
 
+20210402 v1.00
 Also add a restart/refresh to exe file
 
 Joy's Record Time code :https://github.com/yevolcn/RecordTime/blob/master/RecordTime.ahk
@@ -188,7 +190,8 @@ MyLabel_5: ;!7:: This remaps hotkeys
               ;MsgBox %A_ThisLabel%
               IniRead,TX, %IniFilePath2%, FileIdLocName, FileNameVar
               RecordFile = %TX%
-              Run,%RecordFile%
+              ;MsgBox, %TX%
+              Run, Notepad.exe %TX%
               Return
             }
 
