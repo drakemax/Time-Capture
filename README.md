@@ -2,7 +2,7 @@
 
 #### Acknowlegements:
 
-I am usuing Joy's ReportTime code from : https://github.com/yevolcn/RecordTime/blob/master/RecordTime.ahk
+I am using Joy's ReportTime code from : https://github.com/yevolcn/RecordTime/blob/master/RecordTime.ahk
 I personally use Hellbent aka CivReborn Timer/StopWatch from: https://pastebin.com/HxgmZVXF
 Thank you to both these people for sharing their code.
 
